@@ -1,0 +1,39 @@
+# Игнорируем папку с зависимостями Composer
+/vendor/
+
+# Игнорируем файл с переменными окружения (секреты!)
+.env
+.env.local
+.env.*.local
+
+# Конфигурационные файлы
+config/local.php
+config/database.local.php
+
+# Папки и файлы, специфичные для фреймворка
+/bootstrap/cache/
+/storage/*.key
+/public/hot
+/public/storage
+Homestead.json
+Homestead.yaml
+
+# Логи и временные файлы
+/logs/
+*.log
+/tmp/
+/cache/
+
+# Файлы IDE
+.idea/
+.vscode/
+
+# Артефакты тестирования
+/coverage/
+.phpunit.result.cache
+
+# Для WordPress
+wp-config.php
+/wp-content/uploads/
+/wp-content/cache/
+/wp-content/upgrade/
